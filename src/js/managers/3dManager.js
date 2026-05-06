@@ -75,7 +75,7 @@ export class ThreeManager {
 
         // Create scene
         this.scene = new THREE.Scene();
-        this.scene.background = new THREE.Color(0x1a1a2e);
+        this.scene.background = new THREE.Color(0x272731);
 
         // Create WebGL renderer
         this.renderer = new THREE.WebGLRenderer({ canvas: this.canvas, antialias: true, alpha: true });
@@ -151,7 +151,7 @@ export class ThreeManager {
      * Initialize TransformControls for cube manipulation
      */
     async initTransformControls() {
-        const { TransformControls } = await import('three/addons/controls/TrackballControls.min.js');
+        const { TransformControls } = await import('three/addons/controls/TransformControls.min.js');
 
         this.transformControls = new TransformControls(this.camera, this.canvas);
         this.transformControls.attach(this.cube);
