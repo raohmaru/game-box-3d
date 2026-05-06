@@ -4,8 +4,7 @@ A web-based 3D application that lets you create and view video game box covers i
 
 https://raohmaru.github.io/game-box-3d/
 
-<img src="https://raohmaru.github.io/game-box-3d/assets/game-box-front.png" width="300" alt="Render of the front view of a SEGA Megadrive japanese game box">
-<img src="https://raohmaru.github.io/game-box-3d/assets/game-box-back.png" width="300" alt="Render of the back view of a SEGA Megadrive japanese game box">
+<img src="https://raohmaru.github.io/game-box-3d/assets/game-box-front.png" width="300" alt="Render of the front view of a SEGA Megadrive japanese game box"> <img src="https://raohmaru.github.io/game-box-3d/assets/game-box-back.png" width="300" alt="Render of the back view of a SEGA Megadrive japanese game box">
 
 ## Getting Started
 
