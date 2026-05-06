@@ -445,12 +445,20 @@ export const BOXES = {
             depth: 2.5
         }
     },
-    'megadrive': {
-        name: 'Sega Genesis',
+    'genesis': {
+        name: 'Sega Genesis / Megadrive',
         config: {
             width: 13,
             height: 18,
             depth: 2.5
+        }
+    },
+    'megadrive_jp': {
+        name: 'Sega Megadrive (JP)',
+        config: {
+            width: 13,
+            height: 18.8,
+            depth: 3.2
         }
     },
     'mastersystem_jp': {
